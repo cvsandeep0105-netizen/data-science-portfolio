@@ -1,49 +1,48 @@
 # Customer Churn Analysis & Prediction
 
-## Problem Statement
-Customer churn is a major challenge for subscription-based businesses. The goal of this project is to analyze customer behavior and build a machine learning model that predicts whether a customer is likely to churn.
-
-## Business Objective
-- Identify key factors influencing customer churn
-- Predict churn probability for each customer
-- Help businesses take proactive retention actions
+## Project Overview
+This project analyzes customer churn behavior using exploratory data analysis (EDA) 
+and machine learning models to identify key factors influencing customer retention.
 
 ## Dataset
-- Source: Telecom Customer Churn Dataset
-- Rows: ~7,000 customers
-- Features: Demographics, services used, billing, tenure
-- Target variable: Churn (Yes/No)
+- IBM Telco Customer Churn Dataset
+- Records: 7,043 customers
+- Features: Demographics, contract details, services, billing information
 
-## Tech Stack
+## Exploratory Data Analysis
+- Churn distribution analysis
+- Churn vs contract type, tenure, monthly charges
+- Churn vs internet service and payment methods
+
+## Models Used
+- Logistic Regression
+- Random Forest Classifier
+
+## Model Performance
+Logistic Regression:
+- Accuracy: ~78%
+- ROC-AUC: ~0.83
+
+Random Forest:
+- Better recall for churn class
+- Identified key churn drivers
+
+## Key Insights
+- Month-to-month contracts show highest churn
+- Low tenure customers are more likely to churn
+- High monthly charges increase churn probability
+- Fiber optic users have higher churn risk
+
+## Tools & Technologies
 - Python
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - Scikit-learn
-
-## Project Workflow
-1. Data Cleaning & Preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Feature Engineering
-4. Model Building (Logistic Regression, Random Forest)
-5. Model Evaluation
-6. Business Insights & Recommendations
-
-## Key Insights
-- Customers with short tenure have higher churn
-- Month-to-month contracts show highest churn
-- High monthly charges increase churn risk
-
-## Model Performance
-- Accuracy: ~80%
-- Evaluation Metrics: Precision, Recall, F1-score, ROC-AUC
+- Jupyter Notebook
 
 ## Business Impact
-This model helps businesses:
-- Identify high-risk customers
-- Reduce churn by targeted retention campaigns
-- Increase customer lifetime value
+This analysis helps telecom companies proactively identify high-risk customers 
+and design targeted retention strategies.
 
-## Folder Structure
-01-customer-churn-analysis/ │── data/ │── notebooks/ │── src/ │── README.md
 ## Author
-**Venkata Sandeep Kumar Reddy**
+Sandeep Reddy
