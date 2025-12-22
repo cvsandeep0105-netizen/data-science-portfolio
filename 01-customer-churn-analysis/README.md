@@ -4,6 +4,15 @@
 This project analyzes customer churn behavior using exploratory data analysis (EDA) 
 and machine learning models to identify key factors influencing customer retention.
 
+## Project Flow
+1. Data loading and inspection  
+2. Data cleaning and preprocessing  
+3. Exploratory Data Analysis (EDA)  
+4. Feature encoding and scaling  
+5. Model training and evaluation  
+6. Model comparison and selection  
+7. Business insights and recommendations
+
 ## Dataset
 - IBM Telco Customer Churn Dataset
 - Records: 7,043 customers
@@ -59,6 +68,12 @@ and better ability to capture non-linear relationships in customer behavior.
 ## Business Impact
 This analysis helps telecom companies proactively identify high-risk customers 
 and design targeted retention strategies.
+
+## Future Improvements
+- Hyperparameter tuning using GridSearchCV
+- Handling class imbalance using SMOTE
+- Adding explainability using SHAP values
+- Deploying the model as a REST API
 
 ## Author
 Sandeep Reddy
