@@ -4,6 +4,11 @@
 This project analyzes customer churn behavior using exploratory data analysis (EDA) 
 and machine learning models to identify key factors influencing customer retention.
 
+### Key Results
+- Best Model: Random Forest
+- ROC-AUC: 0.88
+- Accuracy: 78%
+
 ## Project Flow
 1. Data loading and inspection  
 2. Data cleaning and preprocessing  
