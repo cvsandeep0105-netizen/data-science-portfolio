@@ -80,5 +80,7 @@ and design targeted retention strategies.
 - Adding explainability using SHAP values
 - Deploying the model as a REST API
 
+- https://github.com/cvsandeep0105-netizen/data-science-portfolio/blob/main/01_customer_churn_eda_and_modeling%20(1).ipynb
+
 ## Author
 Sandeep Reddy
