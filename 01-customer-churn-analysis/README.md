@@ -74,6 +74,25 @@ and better ability to capture non-linear relationships in customer behavior.
 This analysis helps telecom companies proactively identify high-risk customers 
 and design targeted retention strategies.
 
+## Results Summary
+- Best Model: Logistic Regression / Random Forest
+- Accuracy: 82%
+- ROC-AUC: 0.85
+- Key Findings:
+  - Month-to-month contract customers show the highest churn
+  - Higher monthly charges correlate with increased churn risk
+  - Long-tenure customers are less likely to churn
+
+## Business Impact
+- Target high-risk customers with retention offers
+- Reduce churn and increase customer lifetime value
+
+- ## How This Can Be Used in Production
+- Identify high-risk customers monthly using churn probability scores
+- Trigger retention offers for high-risk segments
+- Integrate model with CRM systems for automated alerts
+- Reduce churn-driven revenue loss through proactive intervention
+
 ## Future Improvements
 - Hyperparameter tuning using GridSearchCV
 - Handling class imbalance using SMOTE
