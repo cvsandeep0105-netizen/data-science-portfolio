@@ -19,10 +19,12 @@ and machine learning models to identify key factors influencing customer retenti
 7. Business insights and recommendations
 
 ## Dataset
-- IBM Telco Customer Churn Dataset
-- Records: 7,043 customers
-- Features: Demographics, contract details, services, billing information
+- **Name:** IBM Telco Customer Churn Dataset  
+- **Source:** Kaggle  
+- **Records:** 7,043 customers  
+- **Description:** Customer demographics, subscription details, services, and billing information used to analyze and predict customer churn.
 
+  
 ## Exploratory Data Analysis
 - Churn distribution analysis
 - Churn vs contract type, tenure, monthly charges
